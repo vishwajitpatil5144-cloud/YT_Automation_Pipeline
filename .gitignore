@@ -8,6 +8,10 @@ __pycache__/
 *.pyc
 
 # Generated assets
-output/
-assets/
+output/**
+!output/**/
+!output/**/*.png
+assets/**
+!assets/**/
+!assets/**/*.png
 checkpoints.db
