@@ -1,0 +1,13 @@
+# Local secrets and OAuth tokens
+.env
+youtube_token.json
+client_secrets.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated assets
+output/
+assets/
+checkpoints.db
